@@ -1,0 +1,5 @@
+_id,name,poster,trailer,dimensions[0],dimensions[1],dimensions[2],dimensions[3],category[0],category[1],category[2],duration,releaseDate,language[0],language[1],language[2],language[3],age,status,ticketsSold,cost
+66d3935f7b204acdd862692b,Deadpool VS Wolverine,/static/media/movies/223.jpg,https://www.youtube.com/watch?v=73_1biulkYk,2D,3D,IMAX 2D,4DX,action,adventure,comedy,128,31-08-2024,hindi,english,tamil,telugu,A,running,234,234
+66d49441b1fa1dbb74bc14d4,Deadpool VS Wolverine,/static/media/movies/223.jpg,https://www.youtube.com/watch?v=73_1biulkYk,2D,3D,IMAX 2D,4DX,action,adventure,comedy,128,31-08-2024,hindi,english,tamil,telugu,A,running,234,234
+66d49695c8acc45e2431ab64,Deadpool VS Wolverine,/static/media/movies/223.jpg,https://www.youtube.com/watch?v=73_1biulkYk,2D,3D,IMAX 2D,4DX,action,adventure,comedy,128,31-08-2024,hindi,english,tamil,telugu,A,archived,234,234
+66d496e88f51e7ddd6c94730,Afraid,/static/media/movies/20240901220136697602.png,https://www.youtube.com/watch?v=LE5QzD_qtxs,2d,3d,,,horror,sci-fi,thriller,84,30-04-2024,hindi,english,,,UA,running,0,400
