@@ -1,0 +1,42 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: Cambria Math;
+	background: #b4c5e4;
+}
+#frm{
+	width: 300px;
+	margin-top: 20px;
+	box-shadow: 0px 0px 10px black;
+	border-radius: 10px;
+	background: white;
+	padding: 10px;
+	text-align: center;
+}
+.hd{
+	padding: 0px;
+	margin: 0px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.inpt{
+	width: 90%;
+	font-size: 20px;
+	margin: 3px;
+	border: none;
+	border-bottom: solid;
+}
+.inpt:focus{
+	outline: none;
+}
+.btn{
+	background: black;
+	color: white;
+	border: solid;
+	border-color: black;
+	font-size: 15px;
+	padding: 7px;
+	margin: 10px;
+	width: 200px;
+	border-radius: 10px;
+}

@@ -1,0 +1,68 @@
+body{
+	font-family: Cambria Math;
+	padding: 0px;
+	margin: 0px;
+}
+#poster{
+	width: 20%;
+	margin: 5%;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px black;
+}
+#cnt{
+	margin: 5%;
+	width: 60%;
+	float: right;
+}
+p{
+	margin: 0px;
+	padding: 0px;
+}
+.tt-mv{
+	font-size: 40px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.n-tt{
+	padding-bottom: 10px;
+	font-size: 25px;
+}
+.language{
+	background: #b5fe9c;
+	padding: 7px;
+	font-size: 18px;
+	border-radius: 8px;
+	color: #1a6101;
+}
+.container-btn{
+	background: black;
+	font-size: 17px;
+	padding: 7px;
+	color: white;
+	border-radius: 10px;
+	border: solid;
+	border-color: black;
+}
+@media screen and (max-width:750px) {
+	#cnt{
+		width: 90%;
+		padding: 0%;
+		margin: 5%;
+	}
+	.language{
+		font-size: 15px;
+	}
+	.tt-mv{
+		font-size: 30px;
+		padding-bottom: 10px;
+	}
+	.n-tt{
+		font-size: 20px;
+		padding-bottom: 10px;
+	}
+	#poster{
+		width: 90%;
+		object-fit: cover;
+		height: 300px;
+	}
+}
