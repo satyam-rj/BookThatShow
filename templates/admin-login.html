@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Admin login</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="shortcut icon" href="/static/media/favicon.png">
+	<link rel="stylesheet" type="text/css" href="/static/style/admin-login.css">
+	<link rel="shortcut icon" href="/static/media/favicon.png">
+</head>
+<body>
+
+<center>
+	<form id="frm" method="POST" action="/admin_login/">
+		<p class="hd">Admin login</p>
+		{% csrf_token %}
+		<input type="email" name="email" class="inpt" placeholder="Enter email">
+		<input type="password" name="password" class="inpt" placeholder="Enter password">
+		<button class="btn">Login</button>
+	</form>
+</center>
+
+<script type="text/javascript">
+	if ("{{msg}}") {alert("{{msg}}");}
+</script>
+
+</body>
+</html>

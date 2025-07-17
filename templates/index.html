@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% load static %}
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Verditales</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="shortcut icon" href="/static/media/favicon.png">
+	<link rel="stylesheet" type="text/css" href="/static/style/index.css">
+</head>
+<body>
+
+<nav>
+	<span>Verditales</span>
+	<button style="border: none;background: transparent;"><i class="material-icons" style="color: whitesmoke;">person</i></button>
+</nav>
+<div id="content">
+	{% for i in movies %}
+			<div class="container">
+				<img src="{{i.poster}}"  class="container-img">
+				<p class="tt-mv">{{i.name}}</p>
+				<p class="n-tt">Duration: {{i.duration}} minutes</p>
+				<p class="n-tt">Release Date: {{i.releaseDate}}</p>
+				<p class="n-tt">Rating: {{i.rate}}</p>
+				<p class="n-tt lng">Languages: {% for x in i.language %} <span class="language">{{x}}</span> {% endfor %}</p>
+				<p class="n-tt lng">Dimension: {% for x in i.dimensions %} <span class="language">{{x}}</span> {% endfor %}</p>
+				<p class="n-tt lng">Category: {% for x in i.category %} <span class="language">{{x}}</span> {% endfor %}</p>
+				<p class="spc">
+					<button class="container-btn">₹ {{i.cost}}</button>
+					<a class="container-a" href="/movies/{{i.id}}/">View details</a>
+				</p>
+			</div>
+	{% endfor %}
+</div>
+<script type="text/javascript" src="/static/script/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{{data.name}}</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="shortcut icon" href="/static/media/favicon.png">
+	<link rel="stylesheet" type="text/css" href="/static/style/movies.css">
+</head>
+<body>
+
+<img src="{{data.poster}}" id="poster">
+
+<div id="cnt">
+	<p class="tt-mv"><a href="/"><i class="material-icons" style="color: black;height: 30px;">arrow_back</i></a> {{data.name}}</p>
+	<p class="n-tt">Duration: {{data.duration}} minutes</p>
+	<p class="n-tt">Release Date: {{data.releaseDate}}</p>
+	<p class="n-tt">Rating: {{data.age}}</p>
+	<p class="n-tt">Trailer: <a href="{{data.trailer}}">Link to trailer</a></p>
+	<p class="n-tt">Ticket price: {{data.cost}}</p>
+	<p class="n-tt lng">Languages: {% for x in data.language %} <span class="language">{{x}}</span> {% endfor %}</p>
+	<p class="n-tt lng">Dimension: {% for x in data.dimensions %} <span class="language">{{x}}</span> {% endfor %}</p>
+	<p class="n-tt lng">Category: {% for x in data.category %} <span class="language">{{x}}</span> {% endfor %}</p>
+	<p>
+		<button class="container-btn">Purchase</button>
+	</p>
+</div>
+
+</body>
+</html>
