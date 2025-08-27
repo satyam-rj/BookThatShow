@@ -1,5 +1,4 @@
-We have developed a Django-powered web application that enables administrators to manage mo<img width="1847" height="809" alt="Screenshot 2025-07-31 133206" src="https://github.com/user-attachments/assets/cd1502db-fcdc-4e30-8450-d0671abde42e" />
-vie information. The application features functionalities for uploading, editing, archiving, and deleting movie data. MongoDB serves as the underlying database, while Django provides the necessary security framework. This project was undertaken as a personal endeavor.
+We have developed a Django-powered web application that enables administrators to manage movie information. The application features functionalities for uploading, editing, archiving, and deleting movie data. MongoDB serves as the underlying database, while Django provides the necessary security framework. This project was undertaken as a personal endeavor.
 
 <img width="1847" height="809" alt="Screenshot 2025-07-31 133206" src="https://github.com/user-attachments/assets/ceac8c72-3a68-4ee3-9f11-d43d0d3a11cc" />
 
